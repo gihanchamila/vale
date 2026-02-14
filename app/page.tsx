@@ -69,10 +69,10 @@ export default function ValentinePage() {
             animate={{ opacity: 1 }}
             className="text-center flex flex-col items-center"
           >
-            <h2 className="text-4xl font-bold text-pink-600 mb-12">
+            <h2 className="text-4xl font-bold text-pink-600 mb-6">
               {VALENTINE_DATA.question}
             </h2>
-            <div className="flex gap-4 items-center relative h-32">
+            <div className="flex gap-4 items-center relative">
               <button
                 onClick={handleYes}
                 className="bg-pink-500 text-white px-6 py-2 rounded-full font-bold  hover:bg-pink-600 transition-colors"
